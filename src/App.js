@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import ScormAPI from './scormPlayer';
 import './App.css';
 
+//https://github.com/gabrieldoty/simplify-scorm
 window.API = new ScormAPI();
 window.API.apiLogLevel = 1;
 // ScormAPI.call();
